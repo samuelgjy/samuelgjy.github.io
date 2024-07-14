@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Samuel's Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/profile.jpg" alt="Samuel Goh">
+      </figure>
+      
+        <div class="info-content">
+          <h1 class="name" title="Samuel Goh">Samuel Goh Jun Yu</h1>
+          <p class="title">AI Focused Software Engineer</p>
+          <a href="./assets/images/Samuel_Resume.pdf" class="download" download>Download Resume</a>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:samuelgjy97@gmail.com" class="contact-link">samuelgjy97@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Singapore</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://github.com/samuelgjy/" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/samuelgohjy/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+        </ul>
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>Hello! I'm Samuel, an aspiring professional in Applied Artificial Intelligence, currently advancing my knowledge at SIT. 
+            My insatiable curiosity and unwavering passion for innovation drive my journey in the captivating realms of Machine Learning and Data Science. 
+            I'm on a mission to unearth the transformative power these fields hold and how they can reshape our world. I'm always open to connect, collaborate, or simply have a chat. Feel free to reach out!
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-ai.png" alt="Artificial Intelligence" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Artificial Intelligence</h4>
+                <p class="service-item-text">
+                  Implemented AI algorithms and frameworks like NLTK, TensorFlow, and PyTorch for data analysis, machine learning model development, and automation                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-analysis.png
+                " alt="design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Science & Analytics</h4>
+                <p class="service-item-text">
+                  Leveraged data science techniques, including data preprocessing, statistical analysis, and machine learning algorithms, to derive actionable insights and build predictive models                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Development & Database Management</h4>
+                <p class="service-item-text">
+                Create intuitive user interfaces and functionality utilising frontend / backend frameworks like React, Flask and Node
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Computer Vision</h4>
+                <p class="service-item-text">
+                  Implement object detection using state-of-the-art model and OpenCV for image processing
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+          <ul class="testimonials-list has-scrollbar">
+            
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard ABOUT ME
+                  </p>
+                </div>
+
+              </div>
+            </li>
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard modal
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+  </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Singapore Institute of Technology</h4>
+
+              <span>Aug 2022 — Present (Expected Graduation: April 2025)</span>
+
+                  <p class="timeline-text">• BSc (Hons) Applied Artificial Intelligence</p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Singapore Polytechnic</h4>
+
+              <span>Apr 2017 — Mar 2020</span>
+
+              <p class="timeline-text">
+                • Diploma in Mechanical Engineering
+              </p>
+              <p class="timeline-text">
+                • Awarded the Director Honour Roll AY19/20
+              </p>
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Work Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Advanced Micro Devices, Inc. - Data Analytics Intern</h4>
+
+              <span>July 2024 - Apr 2025</span>
+
+              <p class="timeline-text">
+                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
+                molestias
+                exceptur.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">GAC Enterprise - Web Developer (Part-time)</h4>
+
+              <span>Apr 2023 - Sept 2023</span>
+
+              <p class="timeline-text">
+                • Orchestrated the conceptualization, design and implementation of an interactive website
+              </p>
+              <p class="timeline-text">
+                • Utilised frontend/backend frameworks such as React, Bootstrap, Node and Flask for intuitive
+                user interfaces and functionality
+              </p>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">AB Sciex Pte Ltd - Product Quality Analyst (Intern)</h4>
+
+              <span>Mar 2019 — Aug 2019</span>
+
+              <p class="timeline-text">
+                • Utilised advanced excel functionalities and implemented automation techniques using VBA
+              </p>
+              <p class="timeline-text">
+                • Utilising Tableu, Excel to generate visualisation tools to create insightful representations
+              </p>
+              <p class="timeline-text">
+                • Demonstrated strong communication skills by presenting findings to key stakeholders
+              </p>
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Certifications</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                <a href="https://www.credly.com/badges/21a576ca-1bd2-4bb7-bbec-788fc91c623b/linked_in_profile"
+                   target="_blank" rel="noopener noreferrer" style="color: inherit;">
+                  Google Professional Machine Learning Certificate
+                </a>
+              </h4>
+              <span>Issued May 2024 • Expires May 2026</span>
+              <p class="timeline-text">
+                The Google Professional Machine Learning Engineer certificate is a credential that demonstrates a professional's ability to design, build, and productionize machine learning models. This certification is intended for individuals who have advanced knowledge and skills in machine learning, including familiarity with the Google Cloud Platform.
+              </p>
+            </li>
+            
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                <a href="https://learn.aisingapore.org/certificate-verification/8153D9D17A-156B2A2C8-12D455493/"
+                   target="_blank" rel="noopener noreferrer" style="color: inherit;">
+                  AI Singapore - Foundations in AI
+                </a>
+              </h4>
+              <span>Issued Nov 2023</span>
+              <p class="timeline-text">
+                Foundations in AI is a 140-hour online course which aims to help learners understand and use AI appropriately and be able to program basic AI and data applications in Python.
+                Upon completion of this course, the learner would be able to build basic AI models and Data applications. </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">HackerRank</h4>
+              <span>Issued Sep 2023</span>
+              <p class="timeline-text">
+                <a href="https://www.hackerrank.com/certificates/49c8f5b2dca1" target="_blank" rel="noopener noreferrer" style="color: inherit;">• Problem Solving (Basic)</a>
+              </p>
+              <p class="timeline-text">
+                <a href="https://www.hackerrank.com/certificates/7f217c95fb03" target="_blank" rel="noopener noreferrer" style="color: inherit;">• Python (Basic)</a>
+              </p>
+            </li>
+            
+          </ol>
+
+        </section>
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+      
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Software Engineering</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Data Science & Analytics</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Artificial Intelligence</button>
+            </li>
+          </ul>
+      
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Software Engineering</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Data Science & Analytics</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Artificial Intelligence</button>
+              </li>
+            </ul>
+          </div>
+      
+          <ul class="project-list">
+              <!--add a portfolio here-->
+            <!--portfolio 1-->
+            <li class="project-item active" data-filter-item data-category="artificial intelligence">
+              <a href="#" class="project-link" onclick="openPopup(event, 'Multilingual Speech & Language Evaluation', 'School Project', './assets/images/nlp-project.png', 'The objective of the project is to develop a multilingual speech evaluation system that supports the evaluation of primary school students’ Chinese, Malay and Tamil. Some techniques involved are speech recognition, natural language processing, machine learning and user interface design', ['Natural Language Processing', 'YOLO', 'OCR', 'Audio Processing'], 'https://github.com/avintech/multilingual-speech-evaluation')">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/nlp-project.png" alt="nlp-project" loading="lazy">
+                </figure>
+                <h3 class="project-title">Multilingual Speech & Language Evaluation</h3>
+                <p class="project-category">Natural Language Processing</p>
+              </a>
+            </li>
+
+            <!--portfolio 2 etc-->
+            <li class="project-item active" data-filter-item data-category="artificial intelligence">
+              <a href="#" class="project-link" onclick="openPopup(event, 'Smart Proctoring', 'School Project', './assets/images/smart-proctoring.png', 'Smart Proctoring is an anti-cheat system that uses Raspberry Pi technology to maintain the integrity of open book quizzes by preventing external collaboration. This system incorporates screenshot analysis, eye tracking, and microphone input for comprehensive monitoring.', ['OpenCV', 'YOLO', 'OCR', 'Audio Processing'], 'https://github.com/KevinthePotatoghost/Edge-computing')">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/smart-proctoring.png" alt="smart-proctoring" loading="lazy">
+                </figure>
+                <h3 class="project-title">Smart Proctoring</h3>
+                <p class="project-category">Computer Vision</p>
+              </a>
+            </li>
+    
+            <li class="project-item active" data-filter-item data-category="software engineering">
+              <a href="#" class="project-link" onclick="openPopup(event, 'Beyond Lightyear', 'School Project', './assets/images/oop-game.png', 'Beyond Lightyear is an engaging game developed with Object-Oriented Programming principles. It features advanced level designs and interactive gameplay.', ['Java', 'JavaFX', 'Game Design', 'Animation'], 'https://github.com/samuelgjy/oop-space-game')">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/oop-game.png" alt="oop-game" loading="lazy">
+                </figure>
+                <h3 class="project-title">Beyond Lightyear</h3>
+                <p class="project-category">Software Engineering</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="data science & analytics">
+              <a href="#" class="project-link" onclick="openPopup(event, 'HDB Resale Price Predictor', 'School Project', './assets/images/hdb.png', 'HDB resale price predictor description', ['Java', 'JavaFX', 'Game Design', 'Animation'], 'https://github.com/samuelgjy/resale-price-final')">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/hdb.png" alt="hdb-predictor" loading="lazy">
+                </figure>
+                <h3 class="project-title">HDB Resale Price Predictor</h3>
+                <p class="project-category">Data Science</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="software engineering">
+              <a href="#" class="project-link" onclick="openPopup(event, 'Automotivo Karmart', 'School Project', './assets/images/carmart.png', 'karmart description', ['Java', 'JavaFX', 'Game Design', 'Animation'], 'https://github.com/samuelgjy/database-project')">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/carmart.png" alt="car-rental" loading="lazy">
+                </figure>
+                <h3 class="project-title">Automotivo Karmart</h3>
+                <p class="project-category">Software Engineering</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="data science & analytics">
+              <a href="#" class="project-link" onclick="openPopup(event, 'Hotel Sentiment Review Analysis', 'School Project', './assets/images/hotel-pic.png', 'WhereToStay is a web-based platform that scrapes reviews from TripAdvisor.com, summarizes evaluations, and applies sentiment analysis, emotion recognition, and topic modeling to hotel reviews. This online platform allows users to easily find hotels and read the opinions of previous clients, streamlining the decision-making process. Businesses can leverage this data to gain insights and a competitive advantage', ['Java', 'JavaFX', 'Game Design', 'Animation'], 'https://github.com/samuelgjy/sentiment_analysis')">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/hotel.png" alt="hotel-review" loading="lazy">
+                </figure>
+                <h3 class="project-title">Hotel Sentiment Review Analysis</h3>
+                <p class="project-category">Data Science</p>
+              </a>
+            </li>
+
+
+
+<!--add portfolio BEFORE </ul> else the css wont catch-->
+          </ul>
+        </section>
+
+        <div id="popupWindow" class="popup-window">
+          <div class="popup-content">
+            <span class="close-btn" id="closePopup">&times;</span>
+            <h2 id="popupTitle"></h2>
+            <div class="tags" id="popupTags"></div>
+    
+            <div class="content-flex">
+              <img src="" alt="" id="popupImage" class="content-image">
+              <div class="content-text">
+                <div class="text-container">
+                  <p id="popupDescription"></p>
+                  <a href="" target="_blank" id="githubLink" class="github-link">
+                    <img src="./assets/images/github.png" alt="GitHub" class="github-icon">
+                  </a>
+                </div>
+                <ul class="tech-list" id="popupTechList"></ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      
+    </div>
+
+  </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
